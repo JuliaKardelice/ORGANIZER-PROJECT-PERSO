@@ -53,7 +53,9 @@ setInput('')
 
 
 return(
+<>
 <div>
+<label>Ajouter une tâche à faire</label>
 <input 
 
 type="text"
@@ -71,9 +73,8 @@ Ajouter une annotation</button>
 
 </div>
 
-
+</>
 )
 
 }
 
-`

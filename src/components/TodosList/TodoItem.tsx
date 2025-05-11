@@ -1,9 +1,9 @@
 import React from "react";
 import "./TodosList.scss";
-import { toggleTodo, removeTodo  } from "../../reducer/todos/todosSlices"; 
+import { toggleTodo, removeTodo } from "../../reducer/todos/todosSlices"; 
 import { useDispatch } from "react-redux";
-import  {type Todo}  from "../../reducer/todos/todosType"
-
+import type { TodosState } from "../../reducer/todos/todosType";
+import { TodosAction }
 
 
 const TodoItems : React.FC<Todo > = ({id} ) => {
