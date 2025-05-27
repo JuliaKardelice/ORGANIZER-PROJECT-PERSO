@@ -1,4 +1,4 @@
-import { useState } from "react";
+/*import { useState } from "react";
 import { selectTodosTags} from "../../../reducer/todos/todosSelector";
 import { useDispatch, useSelector} from "react-redux";
 // import { AddTodo} from "../../../components/TodosList/AddTodo/AddTodo";
@@ -21,7 +21,7 @@ export interface Todo {
 export const AddTodoNote : React.FC <Todo> = (tags) => {
     const dispatch= useDispatch();
 const [input, setInput] =useState('');
-
+const [tagInput, setTagInput] = useState('')
 
 
 
@@ -78,3 +78,4 @@ Ajouter une annotation</button>
 
 }
 
+*/

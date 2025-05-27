@@ -7,7 +7,7 @@ export type Todo = {
   id: number
   title: string
   completed: boolean
-  tags : string
+  tags : string /// mettre string[]
 }
 
 type TodosState = {

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { updateTodo } from "../../reducer/todos/todosSlices";
+import { updateTodo } from "../../../reducer/todos/todosSlices";
 
 import { useSelector } from "react-redux";
 // import { useDispatch} from "react-redux";

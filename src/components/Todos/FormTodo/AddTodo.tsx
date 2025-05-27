@@ -10,12 +10,13 @@ export interface Todo {
     description: '',
     completed: false,
     id: 0,
-    createdAt: ""
+    createdAt: "";
+    tags? : string
 }
 
 
 
-export const AddTodo = () => {
+export const FormTodo = () => {
 
 const [input, setInput] =useState('');
 
@@ -39,14 +40,15 @@ return(
 
 type="text"
 value = {input}
-onChange={(e) => setInput(e.target.value)}/>
-<input
+onChange={(e) => setInput(e.target.value)}
+placeholder="Ajouter une tâche"/>
+<input/>
 
-/>
 <button 
 onClick={()=>{handleAddTodo()} }
 > 
-Ajouter</button>
+Ajouter
+</button>
 
 
 
@@ -59,4 +61,3 @@ Ajouter</button>
 
 }
 
-export default AddTodo
